@@ -652,19 +652,22 @@ h1 {
 }
 
 .edit-todo {
-  padding: var(--padding);
+  padding: 20px 20px 20px 80px;
   width: 100%;
   position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  line-height: 1.3;
+  line-height: 1.4;
   overflow-wrap: break-word;
-  padding-left: 56px;
-  padding-right: 56px;
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 80px;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   border: 0;
+  background: transparent;
 }
 
 .submit-btn {
